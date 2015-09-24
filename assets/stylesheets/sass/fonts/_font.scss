@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'andale';
+    src: url('./font_source/andale-webfont.eot');
+    src: url('./font_source/andale-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font_source/andale-webfont.woff2') format('woff2'),
+         url('./font_source/andale-webfont.woff') format('woff'),
+         url('./font_source/andale-webfont.ttf') format('truetype'),
+         url('./font_source/andale-webfont.svg#andale') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'inconsolata';
+    src: url('font_source/inconsolata-webfont.eot');
+    src: url('font_source/inconsolata-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font_source/inconsolata-webfont.woff2') format('woff2'),
+         url('font_source/inconsolata-webfont.woff') format('woff'),
+         url('font_source/inconsolata-webfont.ttf') format('truetype'),
+         url('font_source/inconsolata-webfont.svg#inconsolata') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
