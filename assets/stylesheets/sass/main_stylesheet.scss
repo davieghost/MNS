@@ -13,6 +13,16 @@ $absolute-min-width: 380px;
 	display: initial;
 	transition: all 300ms ease-in;
 }
+.hide-mobile {
+	@media only screen and (max-width: $min-width) {
+		display: none;
+	}
+}
+.show-desktop {
+	@media only screen and (max-width: $min-width) {
+		display: initial;
+	}
+}
 * {
 	box-sizing: border-box;
 }
