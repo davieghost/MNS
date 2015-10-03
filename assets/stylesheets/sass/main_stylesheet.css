@@ -360,10 +360,14 @@ body {
     margin-top: 20px; }
   body .site-main-list {
     list-style: none;
-    width: 73.7556561085973%;
+    width: 100%;
     margin: 0 auto; }
   body .site-main-list-item {
+    width: 70%;
     margin: 10px 0; }
+    @media only screen and (max-width: 808px) {
+      body .site-main-list-item {
+        width: 100%; } }
   body .site-main-link {
     font-size: 48px;
     text-decoration: none;
